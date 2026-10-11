@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force Plate Patent Research | Junhyuk Lee</title>
+    <script>document.documentElement.classList.add("js");</script>
+    <link rel="stylesheet" href="../Css/page.css" />
+</head>
+<body>
+    <div class="progress" aria-hidden="true"></div>
+    <a class="back-link" href="home.html">← Back to portfolio</a>
+
+    <main class="page">
+      <!-- Hero -->
+      <header class="hero">
+        <p class="eyebrow reveal">Featured project · Force plate development · Patent research</p>
+        <h1 class="hero__title reveal">A more affordable yet accurate force plate</h1>
+        <p class="hero__lead reveal">A project initiated by my experience with injury and rehabilitation</p>
+        <ul class="chips reveal">
+          <li>Patent application filed (KIPO)</li>
+          <li>FEM simulation study at KAIST</li>
+          <li>Research paper written</li>
+          <li>Physical prototype in progress</li>
+        </ul>
+        <a class="scroll-cue reveal" href="#journey">Scroll to explore ↓</a>
+      </header>
+
+      <!-- Journey overview (slide 2) -->
+      <section class="chapter" id="journey">
+        <p class="eyebrow reveal">The journey at a glance</p>
+        <h2 class="chapter__title reveal">Six stages, from injury to prototype</h2>
+        <ol class="journey">
+          <li class="journey__step reveal">
+            <a href="#motivation">
+              <span class="journey__num">01</span>
+              <h3>Personal motivation</h3>
+              <p class="journey__time">Middle school</p>
+              <p>Repeated ankle injuries ended my competitive basketball experience.</p>
+            </a>
+          </li>
+          <li class="journey__step reveal">
+            <a href="#vald">
+              <span class="journey__num">02</span>
+              <h3>Rehabilitation technology</h3>
+              <p class="journey__time">Grade 9</p>
+              <p>Internship at VALD introduced me to movement assessment.</p>
+            </a>
+          </li>
+          <li class="journey__step reveal">
+            <a href="#concept">
+              <span class="journey__num">03</span>
+              <h3>Hybrid concept</h3>
+              <p class="journey__time">Grade 10 summer through Grade 11</p>
+              <p>I developed a sensor architecture and filed a patent application.</p>
+            </a>
+          </li>
+          <li class="journey__step reveal">
+            <a href="#kaist">
+              <span class="journey__num">04</span>
+              <h3>Simulation study</h3>
+              <p class="journey__time">Summer after Grade 11</p>
+              <p>At KAIST, I compared my concept with two other designs through simulations.</p>
+            </a>
+          </li>
+          <li class="journey__step reveal">
+            <a href="#prototype">
+              <span class="journey__num">05</span>
+              <h3>Physical prototype</h3>
+              <p class="journey__time">Summer after Grade 11 through Grade 12</p>
+              <p>I began building hardware to investigate the design in practice.</p>
+            </a>
+          </li>
+          <li class="journey__step reveal">
+            <a href="#next">
+              <span class="journey__num">06</span>
+              <h3>Further validation</h3>
+              <p class="journey__time">Next stage</p>
+              <p>Calibration and testing after completing the prototype under dynamic loads remain essential.</p>
+            </a>
+          </li>
+        </ol>
+      </section>
+
+      <!-- The instrument (slide 3) -->
+      <section class="chapter" id="instrument">
+        <p class="eyebrow reveal">The instrument</p>
+        <h2 class="chapter__title reveal">What a force plate measures</h2>
+        <div class="split">
+          <div class="split__text">
+            <p class="lead reveal">A force plate measures the forces between a person’s feet and the ground during standing, walking, running or jumping.</p>
+            <p class="muted reveal">Researchers and coaches use these measurements to study balance, movement and athletic performance. But current accurate model comes at a steep price.</p>
+            <div class="stat reveal">
+              <span class="stat__number" data-count="30000" data-prefix="$">$30,000</span>
+              <span class="stat__label">The price of a current accurate force plate</span>
+            </div>
+          </div>
+          <figure class="figure figure--contain reveal">
+            <img src="../../Images/forceplate/commercial-plate.jpg" alt="A commercial force plate" loading="lazy">
+            <figcaption>A commercial force plate</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Personal motivation (slide 4) -->
+      <section class="chapter" id="motivation">
+        <p class="eyebrow reveal">Personal motivation · Middle school</p>
+        <h2 class="chapter__title reveal">Basketball and repeated injury</h2>
+        <div class="split">
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/basketball.jpg" alt="Playing competitive basketball in an indoor gym" loading="lazy">
+            <figcaption>Competitive basketball in middle school</figcaption>
+          </figure>
+          <div class="split__text">
+            <div class="stat reveal">
+              <span class="stat__number"><span class="stat__small">About</span> <span data-count="15">15</span></span>
+              <span class="stat__label">Ankle injuries</span>
+            </div>
+            <p class="lead reveal">I played competitive basketball in middle school, but I had to give up on the sport due to repeated injuries.</p>
+            <p class="muted reveal">Eventually navicular syndrome further complicated my recovery. The standard rehabilitation approaches I tried did not help as much as I had hoped.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VALD (slide 5) -->
+      <section class="chapter" id="vald">
+        <p class="eyebrow reveal">Job shadowing · Australia · Grade 9</p>
+        <h2 class="chapter__title reveal">Rehabilitation engineering at VALD</h2>
+        <p class="lead lead--wide reveal">At VALD, I saw how mechanical engineering and sensing technology could help professionals assess movement beyond what observation alone can show.</p>
+        <div class="gallery gallery--vald">
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/vald-internship.jpg" alt="Working at a laptop during the VALD internship" loading="lazy">
+            <figcaption>Internship at VALD</figcaption>
+          </figure>
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/vald-facility.jpg" alt="A rehabilitation facility with force plates on the floor" loading="lazy">
+            <figcaption>A new perspective on the rehabilitation process</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- The design problem (slide 6) -->
+      <section class="chapter" id="problem">
+        <p class="eyebrow reveal">The design problem</p>
+        <h2 class="chapter__title reveal">Reducing the cost of a force plate</h2>
+        <div class="compare">
+          <article class="compare__card reveal">
+            <h3>The original force plate design</h3>
+            <p>Five expensive sensors, one at the center and one at each corner, contributed to the high cost of the design.</p>
+            <svg class="sensor-map" viewBox="0 0 200 200" role="img" aria-label="Diagram: five expensive sensors, one at the center and one at each corner">
+              <rect class="sensor-map__plate" x="15" y="15" width="170" height="170" rx="10" />
+              <circle class="sensor sensor--expensive" cx="40" cy="40" r="13" />
+              <circle class="sensor sensor--expensive" cx="160" cy="40" r="13" />
+              <circle class="sensor sensor--expensive" cx="100" cy="100" r="13" />
+              <circle class="sensor sensor--expensive" cx="40" cy="160" r="13" />
+              <circle class="sensor sensor--expensive" cx="160" cy="160" r="13" />
+            </svg>
+            <figure class="figure">
+              <img src="../../Images/forceplate/original-design.jpg" alt="A person standing on a force plate" loading="lazy">
+            </figure>
+          </article>
+          <article class="compare__card compare__card--mine reveal">
+            <h3>My approach</h3>
+            <p>I wanted to cut sensor costs by keeping one multi-axis sensor at the center and using cheaper load sensors around the edges.</p>
+            <svg class="sensor-map" viewBox="0 0 200 200" role="img" aria-label="Diagram: one expensive multi-axis sensor at the center, with lower-cost load sensors around the edges">
+              <rect class="sensor-map__plate" x="15" y="15" width="170" height="170" rx="10" />
+              <circle class="sensor sensor--cheap" cx="40" cy="40" r="11" />
+              <circle class="sensor sensor--cheap" cx="160" cy="40" r="11" />
+              <circle class="sensor sensor--expensive" cx="100" cy="100" r="13" />
+              <circle class="sensor sensor--cheap" cx="40" cy="160" r="11" />
+              <circle class="sensor sensor--cheap" cx="160" cy="160" r="11" />
+            </svg>
+            <figure class="figure figure--contain">
+              <img src="../../Images/forceplate/force-axes.jpg" alt="A force plate with its force and moment axes labelled" loading="lazy">
+            </figure>
+          </article>
+        </div>
+        <p class="legend reveal">
+          <span><i class="legend__dot legend__dot--expensive"></i>Expensive multi-axis sensor</span>
+          <span><i class="legend__dot legend__dot--cheap"></i>Lower-cost load sensor</span>
+          <span class="legend__note">Simplified top view</span>
+        </p>
+      </section>
+
+      <!-- Hybrid concept (slide 7) -->
+      <section class="chapter" id="concept">
+        <p class="eyebrow reveal">Theoretical design · Grade 10 summer through Grade 11</p>
+        <h2 class="chapter__title reveal">A hybrid sensor architecture</h2>
+        <div class="split">
+          <div class="split__text">
+            <p class="accent-line reveal">Only one multi-axis sensor at the center to cut the cost</p>
+            <p class="strong-line reveal">Lower-cost load sensors near the plate’s edges</p>
+            <p class="muted reveal">I wanted to reserve the more expensive sensor for the center and use cheaper sensors elsewhere. I needed to test whether this arrangement could still collect useful force data.</p>
+          </div>
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/fem-hybrid.jpg" alt="A simulation of the hybrid force plate design on a monitor" loading="lazy">
+            <figcaption>Simulating the hybrid design</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Patent application (slide 8) -->
+      <section class="chapter" id="patent">
+        <p class="eyebrow reveal">Design development · Patent application</p>
+        <h2 class="chapter__title reveal">Formalizing the concept</h2>
+        <p class="lead lead--wide reveal">I filed a patent application with the Korean Intellectual Property Office while developing the theoretical design.</p>
+        <div class="gallery gallery--2">
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/patent-meeting-1.jpg" alt="Reviewing a prior art search report with the patent lawyer" loading="lazy">
+          </figure>
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/patent-meeting-2.jpg" alt="The patent lawyer explaining the application on a whiteboard" loading="lazy">
+          </figure>
+        </div>
+        <p class="caption-accent reveal">Meetings with the patent lawyer to file a patent registration for my hybrid force plate design</p>
+      </section>
+
+      <!-- KAIST (slide 9) -->
+      <section class="chapter" id="kaist">
+        <p class="eyebrow reveal">KAIST · Summer after Grade 11</p>
+        <h2 class="chapter__title reveal">Testing the idea before manufacture</h2>
+        <div class="split split--wide-media">
+          <div class="gallery gallery--kaist">
+            <figure class="figure reveal">
+              <img src="../../Images/forceplate/kaist-professor.jpg" alt="Working on simulations with Professor Yong-Jin Yoon" loading="lazy">
+            </figure>
+            <figure class="figure reveal">
+              <img src="../../Images/forceplate/kaist-lab-sign.jpg" alt="Sign for KAIST's Creative and Challenging Research Lab and the Just Do It Lab" loading="lazy">
+            </figure>
+          </div>
+          <div class="split__text">
+            <p class="lead reveal">Professor Yong-Jin Yoon supervised my work at KAIST’s Just Do It Laboratory. I used finite element method (FEM) simulations to examine my proposed plate.</p>
+            <p class="muted reveal">The simulations let me examine the design before starting the physical build.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comparative FEM study (slide 10) -->
+      <section class="chapter" id="fem">
+        <p class="eyebrow reveal">Comparative FEM study</p>
+        <h2 class="chapter__title reveal">Comparing three force plate designs</h2>
+        <ol class="designs">
+          <li class="designs__item reveal">A design built for high precision</li>
+          <li class="designs__item reveal">A simpler, less expensive design</li>
+          <li class="designs__item designs__item--mine reveal">My combined sensor design</li>
+        </ol>
+        <div class="split">
+          <p class="lead reveal">With the professor’s guidance, I helped prepare the CAD models and set their materials, applied forces and supports. I also worked out which settings needed to stay the same across the designs.</p>
+          <div class="gallery gallery--2 gallery--portrait">
+            <figure class="figure reveal">
+              <img src="../../Images/forceplate/cad-model-1.jpg" alt="A CAD model of a force plate on screen" loading="lazy">
+            </figure>
+            <figure class="figure reveal">
+              <img src="../../Images/forceplate/cad-model-2.jpg" alt="Setting up a force plate simulation in CAD software" loading="lazy">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Simulation workflow (slide 11) -->
+      <section class="chapter" id="workflow">
+        <p class="eyebrow reveal">Simulation workflow</p>
+        <h2 class="chapter__title reveal">Working through the simulation results</h2>
+        <div class="split">
+          <div class="split__text">
+            <p class="lead reveal">A simulation took several hours at times. Once it finished, I reviewed the output before deciding what to change for the next run.</p>
+            <p class="muted reveal">I checked how the settings I had chosen affected the predicted behavior. If the output differed from what I expected, I went back to the model and adjusted it until the expected results came out.</p>
+          </div>
+          <figure class="figure figure--narrow reveal">
+            <img src="../../Images/forceplate/simulation-data.jpg" alt="A spreadsheet of force reaction results from the simulations" loading="lazy">
+            <figcaption>Force reaction results from a simulation run</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Simulation findings (slide 12) -->
+      <section class="chapter chapter--dark" id="findings">
+        <p class="eyebrow reveal">Simulation findings</p>
+        <h2 class="chapter__title reveal">What I learned from the simulations</h2>
+        <p class="lead lead--wide reveal">In the simulations, my design offered a compromise between the two comparison models. The results suggested that the proposed hybrid structure was worth testing as an actual physical prototype plate.</p>
+        <p class="mint-line reveal">I wrote a research paper based on the simulation study. I then began making a prototype to examine how the design would behave outside the simulation.</p>
+        <p class="reveal">I still needed measurements from actual hardware to assess accuracy.</p>
+      </section>
+
+      <!-- Physical prototype (slide 13) -->
+      <section class="chapter" id="prototype">
+        <p class="eyebrow reveal">Physical prototype · Summer after Grade 11 through Grade 12</p>
+        <h2 class="chapter__title reveal">Building the actual force plate prototype</h2>
+        <div class="split split--wide-media">
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/prototype-plates.jpg" alt="Two machined aluminum plates for the force plate prototype" loading="lazy">
+            <figcaption>Machined plates for the prototype</figcaption>
+          </figure>
+          <div class="split__text">
+            <p class="lead reveal">After the simulations, I began making a prototype to test the idea in real life.</p>
+            <p class="muted reveal">I believed that the build would let me check the questions that the computer simulation alone could not answer.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Assembly (slide 14) -->
+      <section class="chapter" id="assembly">
+        <p class="eyebrow reveal">Prototype development</p>
+        <h2 class="chapter__title reveal">Assembly and instrumentation</h2>
+        <div class="gallery gallery--3 gallery--portrait">
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/electronics.jpg" alt="A circuit board mounted on the prototype" loading="lazy">
+            <figcaption class="caption-accent">Prototype electronics</figcaption>
+          </figure>
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/assembly.jpg" alt="Screwing parts of the prototype together" loading="lazy">
+            <figcaption class="caption-accent">Mechanical assembly</figcaption>
+          </figure>
+          <figure class="figure reveal">
+            <img src="../../Images/forceplate/hardware.jpg" alt="Load sensors and a measurement indicator laid out on a plate" loading="lazy">
+            <figcaption class="caption-accent">Hardware development</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Next stage (slide 2, step 06) -->
+      <section class="chapter" id="next">
+        <div class="next reveal">
+          <p class="eyebrow">Next stage</p>
+          <h2 class="chapter__title">Further validation</h2>
+          <p class="lead">Calibration and testing after completing the prototype under dynamic loads remain essential.</p>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <a class="pill-link" href="home.html">← Back to portfolio</a>
+      </footer>
+    </main>
+
+    <!-- Enlarged photo view -->
+    <div class="lightbox" hidden>
+      <button class="lightbox__close" type="button" aria-label="Close">×</button>
+      <img class="lightbox__img" src="" alt="">
+      <p class="lightbox__caption"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="../Js/page.js"></script>
+</body>
+</html>

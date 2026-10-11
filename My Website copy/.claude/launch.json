@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5600", "--directory", "/Users/r/Downloads/My Website/Webpage/Backend/Frontend"],
+      "port": 5600
+    }
+  ]
+}
